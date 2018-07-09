@@ -1,4 +1,4 @@
-import Star form 'Star';
+import Star fromm 'Star';
 
 var Star = []; 
 var stars = new Star(100);
