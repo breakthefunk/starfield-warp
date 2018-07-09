@@ -20,5 +20,3 @@ function draw() {
     
 }
 
-var StarObject = new starObject();
-
