@@ -1,12 +1,12 @@
-import StarObject from './Star';
+import Star from './Star';
 
-var StarArray = []; 
-var stars = new StarArray(100);
+var Star = []; 
+var stars = new Star(100);
 
 function setup() {
   createCanvas(400, 400); 
   for (var i = 0; i < stars.lenght; i++) {
-    var stars = new StarArray(100);
+    var stars = new Star(100);
   }
 
 }
@@ -19,6 +19,4 @@ function draw() {
   }
     
 }
-
-var StarObject = new starObject();
 
