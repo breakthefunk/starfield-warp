@@ -1,13 +1,11 @@
-class StarObject{
+class StarObject {
     console.log("connected");
     constructor() { 
     var x;
     var y;
     var z;
     }
-    events() {
-    }
-    Star() {
+    StarObject() {
         this.x = random(0, width);
         this.y = random(0, height);
         this.z = random(0, width);
