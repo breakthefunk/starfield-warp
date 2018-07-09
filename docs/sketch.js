@@ -25,18 +25,17 @@ class StarObject {
     var x;
     var y;
     var z;
-    }
-    StarObject() {
+  }
+  StarObject() {
       this.x = random(0, width);
       this.y = random(0, height);
       this.z = random(0, width);
-    }
-    update() {
-    }
-    show() {
-      fill(255);
-      noStroke();
-      ellipse(x, y, 8, 8);
-    }
+  }
+  update() {
+  }
+  show() {
+    fill(255);
+    noStroke();
+    ellipse(x, y, 8, 8);  
   }
 }
