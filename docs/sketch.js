@@ -22,6 +22,8 @@ class StarObject {
     var x;
     var y;
     var z;
+    this.StarObject();
+    this.show();
   }
   StarObject() {
       this.x = random(0, width);
