@@ -1,5 +1,3 @@
-import StarObject from './Star';
-
 var StarArray = []; 
 var stars = new StarArray(100);
 
@@ -26,7 +24,7 @@ class StarObject {
     var y;
     var z;
   }
-  star() {
+  starObject() {
       this.x = random(0, width);
       this.y = random(0, height);
       this.z = random(0, width);
