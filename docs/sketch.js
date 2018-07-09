@@ -1,4 +1,4 @@
-stars = new StarArray(100);
+stars = new Array(100);
 
 function setup() {
   createCanvas(400, 400); 
