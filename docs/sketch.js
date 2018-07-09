@@ -1,4 +1,4 @@
-import defaultExport from './Star';
+import defaultExport from '/Star';
 
 var StarArray = []; 
 var stars = new StarArray(100);
