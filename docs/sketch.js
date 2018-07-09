@@ -1,4 +1,4 @@
-import StarObject from '/Star';
+import StarObject from './Star';
 
 var StarArray = []; 
 var stars = new StarArray(100);
