@@ -12,6 +12,7 @@ function draw() {
   background(0);
   for (var i = 0; i < stars.lenght; i++) {
     stars[i].update();
+    stars = console.log();
     stars[i].show();
   }
     
