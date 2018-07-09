@@ -1,4 +1,4 @@
-class Star{
+class StarObject{
     console.log("connected");
     constructor() { 
     var x;
@@ -21,4 +21,4 @@ class Star{
     }
 }
 
-export default Star;
+export default StarObject;
