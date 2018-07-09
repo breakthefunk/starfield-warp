@@ -11,7 +11,7 @@ function setup() {
 
 }
 
-void draw() {
+function draw() {
   background(0);
   for (var i = 0; i < stars.lenght; i++) {
     stars[i].update();
