@@ -1,4 +1,4 @@
-import defaultExport from './Star';
+import starObject from '/Star';
 
 var StarArray = []; 
 var stars = new StarArray(100);
@@ -19,4 +19,6 @@ function draw() {
   }
     
 }
+
+var StarObject = new starObject();
 
