@@ -21,7 +21,6 @@ function draw() {
 }
 
 class StarObject {
-  console.log("connected");
   constructor() { 
   var x;
   var y;
