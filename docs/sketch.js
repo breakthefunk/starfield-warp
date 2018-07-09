@@ -1,4 +1,4 @@
-var stars = new Array(100);
+/*var stars = new Array(100);
 
 function setup() {
   createCanvas(400, 400); 
@@ -38,4 +38,12 @@ class StarObject {
     noStroke();
     ellipse(x, y, 8, 8);  
   }
+}*/
+
+function setup() {
+
+}
+
+function draw() {
+  ellipse(50, 50, 80, 80);
 }
