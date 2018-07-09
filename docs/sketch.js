@@ -26,7 +26,7 @@ class StarObject {
     var y;
     var z;
   }
-  StarObject() {
+  star() {
       this.x = random(0, width);
       this.y = random(0, height);
       this.z = random(0, width);
