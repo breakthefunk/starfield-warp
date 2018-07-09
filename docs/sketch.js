@@ -6,7 +6,7 @@ var stars = new StarArray(100);
 function setup() {
   createCanvas(400, 400); 
   for (var i = 0; i < stars.lenght; i++) {
-    var stars = new StarArray(100);
+    stars[i]= new StarObject();
   }
 
 }
@@ -19,4 +19,6 @@ function draw() {
   }
     
 }
+
+var StarObject = new starObject();
 
