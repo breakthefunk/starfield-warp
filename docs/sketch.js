@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import starObject from '/Star';
+=======
+import defaultExport from '/Star';
+>>>>>>> 67b7f894149181a058b1b197cac725d9995b9468
 
 var StarArray = []; 
 var stars = new StarArray(100);
