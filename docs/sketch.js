@@ -1,22 +1,43 @@
-var y = 100;
+var stars = [];
+/*stars.lenght = 100;*/
+var starsCount = 100;
 
-// The statements in the setup() function 
-// execute once when the program begins
 function setup() {
-	// createCanvas must be the first statement
-  createCanvas(720, 400);  
-  stroke(255);     // Set line drawing color to white
-  frameRate(30);
+  createCanvas(windowWidth, windowHeight);
+  for (i = 0; i < starsCount; i++) {
+    stars[i] = new StarObject();
+  }
 }
-// The statements in draw() are executed until the 
-// program is stopped. Each statement is executed in 
-// sequence and after the last line is read, the first 
-// line is executed again.
-function draw() { 
-  background(0);   // Set the background to black
-  y = y - 1; 
-  if (y < 0) { 
-    y = height; 
-  } 
-  line(0, y, width, y);  
-} 
+
+function draw() {
+  background(0);
+  for (i = 0; i < starsCount; i++) {
+    stars[i].show();
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+class StarObject {
+  constructor(x, y, z) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+    this.star();
+    this.show();
+  }
+  star() {
+      this.x = random(0, width);
+      this.y = random(0, height);
+      this.z = random(0, width);
+  }
+  update() {
+  }
+  show() {
+    fill(255);
+    noStroke();
+    ellipse(this.x, this.y, 8, 8);  
+  }
+}
