@@ -6,9 +6,9 @@ class starObject {
     var z;
     }
     StarObject() {
-        this.x = random(0, width);
-        this.y = random(0, height);
-        this.z = random(0, width);
+        this.x = random(width, width);
+        this.y = random(height, height);
+        this.z = width;
     }
     void update() {
     }
